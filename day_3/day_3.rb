@@ -21,7 +21,7 @@ class Day3
   end
 
   def find_valid_muls
-    a = memory.scan(REGEX).map { |x, y| [x.to_i, y.to_i] }
+    memory.scan(REGEX).map { |x, y| [x.to_i, y.to_i] }
   end
 end
 
